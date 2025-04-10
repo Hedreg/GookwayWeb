@@ -6,7 +6,6 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
 
-  // Close menu on route change
   useEffect(() => {
     setOpen(false);
   }, [location]);
