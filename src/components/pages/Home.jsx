@@ -29,7 +29,7 @@ function Home() {
                 <h2 className="text-4xl font-semibold mb-4">Smart Watch</h2>
                 <p className="text-lg mb-6">Track your fitness in style</p>
                 <Link to="/shop">
-                  <button className="bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300">
+                  <button className="bg-black text-white px-6 py-3 rounded-xl shadow-lg hover:opacity:.8 transition duration-300">
                     Shop Now
                   </button>
                 </Link>
@@ -47,7 +47,7 @@ function Home() {
                 <h2 className="text-4xl font-semibold mb-4">Wireless Earbuds</h2>
                 <p className="text-lg mb-6">Crystal-clear sound experience</p>
                 <Link to="/shop">
-                  <button className="bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300">
+                  <button className="bg-black text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300">
                     Shop Now
                   </button>
                 </Link>
@@ -65,7 +65,7 @@ function Home() {
                 <h2 className="text-4xl font-semibold mb-4">Laptop</h2>
                 <p className="text-lg mb-6">Powerful performance for work and play</p>
                 <Link to="/shop">
-                  <button className="bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300">
+                  <button className="bg-black text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300">
                     Shop Now
                   </button>
                 </Link>
@@ -115,7 +115,7 @@ function Home() {
             <p className="text-lg font-medium text-gray-800">Email: <span className="text-red-600">support@gookway.com</span></p>
           </div>
           <Link to="/contact">
-            <button className="bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300 mt-6 w-full">
+            <button className="bg-black text-white px-6 py-3 rounded-xl shadow-lg hover:bg-red-500 transition duration-300 mt-6 w-full">
               Contact Us
             </button>
           </Link>
